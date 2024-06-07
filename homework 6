@@ -1,0 +1,14 @@
+my_dict = {"Ruslan":1983, "Albina":1985, "Rolan":2012, "Yasmina":2016}
+print(my_dict)
+print(my_dict["Ruslan"])
+my_dict['Rimma']=1952
+print(my_dict["Rimma"])
+my_dict['Sofia']=1952
+del(my_dict["Ruslan"])
+print(my_dict)
+my_set = {"Terminal", 2006, "Terminal", True, 2006, True}
+print(my_set)
+my_set.add("Bank")
+my_set.remove("Terminal")
+print(my_set)
+
